@@ -17,3 +17,19 @@
   a {
     text-decoration: none;
   }
+
+  footer {
+    color:aquamarine;
+  }
+
+  .quark {
+    color: green;
+  }
+
+  .lepton {
+    color: orange;
+  }
+
+  .boson {
+    color: yellow;
+  }
