@@ -13,8 +13,16 @@
   li {
     font-size: 18px;
   }
+  p.hint{
+    color:azure;
+    display: inline;
+  }
   
-  
+  p.secret {
+    color: black;
+    display: inline;
+
+  }
   a {
     text-decoration: none;
   }
