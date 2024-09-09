@@ -1,5 +1,6 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
   }
   
   
@@ -22,7 +23,7 @@
     color:aquamarine;
   }
 
-  .quark {
+  .quark , .quark * {
     color: green;
   }
 
