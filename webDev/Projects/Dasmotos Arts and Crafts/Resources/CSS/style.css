@@ -3,9 +3,42 @@
 }
 
 header {
+    background-image: url("../Images/pattern.jpeg");
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header h1{ 
     font-size: 100px;
     font-weight: bold;
     color: khaki;
     margin: 0 auto;
-    background-image: url("../Images/pattern.jpeg");
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+section#brushes h2 {
+    background-color: mediumspringgreen;
+}
+
+section#frames h2 {
+    background-color: lightcoral;
+}
+
+section#paint h2 {
+    background-color: skyblue;
+}
+
+figcaption {
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color:blue;
 }
