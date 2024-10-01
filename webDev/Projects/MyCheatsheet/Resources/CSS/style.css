@@ -23,6 +23,7 @@ nav{
     z-index: 1;
 }
 nav a {
+    font-size:50px;
     width: 300px;
     height: 100px;
     background-color: #037971;
