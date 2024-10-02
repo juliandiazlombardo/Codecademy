@@ -77,3 +77,27 @@ table td {
     background-color: #C1839F43;
 }
 
+/*code style*/
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #03797177;
+}
+
+#css {
+    background-color: #582256;
+}
+
+/*footer*/
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #12100E;
+    text-align: center;
+}
+
+footer p {
+    background-color: #12100E;
+    color: #FF5A5F;
+    font-size: 30px;
+}
