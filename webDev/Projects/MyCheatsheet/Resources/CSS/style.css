@@ -83,9 +83,32 @@ code {
     font-family: 'Courier New', Courier, monospace;
     background-color: #03797177;
 }
-
+/*css section*/
 #css {
     background-color: #582256;
+}
+
+#css h2 {
+    color:#582256;
+}
+
+
+#css table th {
+    border-bottom: 3px solid #582256;
+    border-left: 3px solid #582256;
+}
+/*html section*/
+#html {
+    background-color: #037971;
+}
+
+#html h2 {
+    color:#037971;
+}
+
+#html table th {
+    border-bottom: 3px solid #037971;
+    border-left: 3px solid #037971;
 }
 
 /*footer*/
