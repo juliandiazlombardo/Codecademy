@@ -41,6 +41,12 @@ nav a {
     /*line-height: normal;*/
 }
 
+nav a:hover {
+    color: #C3D350;
+    border-bottom: 2px solid #C3D350;
+    border-left: 2px solid #C3D350;
+}
+
 /* table settings */
 
 table {
