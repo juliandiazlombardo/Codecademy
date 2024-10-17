@@ -21,8 +21,6 @@ a:active {
 }
 
 
-
-
 section {
     border: 1px solid #003049;
     border-radius: 8px;
@@ -30,7 +28,7 @@ section {
     margin: 1%;
 }
 
-
+/*Colors setion styling*/
 .color-list {
     list-style-type: none;
     padding: 0;
@@ -80,8 +78,8 @@ section {
 
 /* Color-specific classes */
 
-.color-1 { background-color: #3498db; }
-.color-2 { background-color: #2ecc71; }
+.color-1 { background-color: #007F73; }
+.color-2 { background-color: #ce2558; }
 .color-3 { background-color: #e74c3c; }
 .color-4 { background-color: #95a5a6; }
 
@@ -90,3 +88,21 @@ section {
 .color-FDF0D5 { background-color: #FDF0D5; }
 .color-003049 { background-color: #003049; }
 .color-669BBC { background-color: #669BBC; }
+
+/*Font styling*/
+
+.font-roboto {
+    font-family: roboto sans-serif;
+}
+
+.font-merriweather {
+    font-family: merriweather serif;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.italics {
+    font-style: italic;
+}
