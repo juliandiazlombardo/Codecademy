@@ -91,12 +91,13 @@ section {
 
 /*Font styling*/
 
-.font-roboto {
-    font-family: roboto sans-serif;
+#font-roboto {
+    font-family: "Roboto", sans-serif;
+    /*font-family: sans-serif;*/
 }
 
-.font-merriweather {
-    font-family: merriweather serif;
+#font-merriweather {
+    font-family: "Merriweather", serif;
 }
 
 p.bold {
