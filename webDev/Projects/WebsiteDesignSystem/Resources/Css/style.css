@@ -91,13 +91,26 @@ section {
 
 /*Font styling*/
 
+.pair {
+    display: inline-block;
+    width: 45%;
+}
+
 #font-roboto {
     font-family: "Roboto", sans-serif;
-    /*font-family: sans-serif;*/
+   
 }
 
 #font-merriweather {
     font-family: "Merriweather", serif;
+}
+
+#font-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+#font-playfair_display {
+    font-family: 'Playfair Display', serif;
 }
 
 p.bold {
