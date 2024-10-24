@@ -1,3 +1,12 @@
+#header {
+    background-color: #669BBC;
+}
+
+#header h1 {
+    background-color: hsl(203, 39%, 57%);
+    color:#C1121F;
+    
+}
 /*general settings*/
 
 h1 {
