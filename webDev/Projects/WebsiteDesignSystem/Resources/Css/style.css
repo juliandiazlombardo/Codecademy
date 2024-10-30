@@ -1,5 +1,6 @@
 #header {
     background-color: #669BBC;
+    opacity: 70%;
     display: flex;
     justify-content: center;
     
@@ -7,7 +8,8 @@
 
 #header h1 {
     background-color: hsl(203, 39%, 57%);
-    color:#FDF0D5;
+    color:#C1121F;
+    opacity: 90%;
     
 }
 /*general settings*/
