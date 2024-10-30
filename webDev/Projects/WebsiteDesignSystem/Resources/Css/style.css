@@ -1,5 +1,8 @@
 #header {
     background-color: #669BBC;
+    display: flex;
+    justify-content: center;
+    
 }
 
 #header h1 {
