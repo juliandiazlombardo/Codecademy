@@ -6,8 +6,39 @@
     opacity: 0.9;
 }
 
-/* footer*/
+/*mission section*/
+#mission {
+    background-image: url("../Resources/img-mission-background.png");
+    height: 700px;
+    width: 1200px;
+}
+
+/*Tea of the month section*/
+#tea-of-the-month {
+    display: flex;
+}
+
+#tea-of-the-month img {
+height: 200px;
+width: 300px;
+}
+
+/*Locations section*/
+#locations {
+    background-image: url("../Resources/img-locations-background.png");
+    height: 500px;
+    width: 1200px;
+
+    display: flex;
+}
+
+/*Footer*/
 
 footer {
-    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer copyright {
+    justify-content: flex-end;
 }
