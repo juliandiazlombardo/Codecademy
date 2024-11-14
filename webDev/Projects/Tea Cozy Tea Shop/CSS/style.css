@@ -4,18 +4,85 @@
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    /*style reset*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
+/*header*/
+header {
+    height: 69px;
+    width: 100%;
+    max-height: 69px;
+    position: fixed;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    
+}
+
+#header-spacer {
+    height: 69px;
+    width: 100%;
+    opacity: 0%;
+}
+
+header #logo {
+    height: 50px;
+    max-height: 50px; 
+    flex-shrink: 1;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+header nav a {
+    padding: 5px;
+    text-decoration: underline;
+}
+
+
+
 
 /*mission section*/
 #mission {
     background-image: url("../Resources/img-mission-background.png");
     height: 700px;
     width: 1200px;
+    max-height: 700px;
+    display: flex;
+    align-items: center stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+#mission h2,#mission h4 {
+    height: 45px;
+    /*flex: 1;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 
 /*Tea of the month section*/
 #tea-of-the-month {
     display: flex;
+    justify-content: space-around;
+}
+#tea-of-the-month h2, #tea-of-the-month h4 {
+    height: 45px;
 }
 
 #tea-of-the-month img {
@@ -28,7 +95,6 @@ width: 300px;
     background-image: url("../Resources/img-locations-background.png");
     height: 500px;
     width: 1200px;
-
     display: flex;
 }
 
