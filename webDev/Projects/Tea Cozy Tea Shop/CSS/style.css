@@ -115,6 +115,7 @@ header nav a {
     background-image: url("../Resources/img-locations-background.png");
     height: 500px;
     width: 1200px;
+    margin-inline: auto;
 }
 
 #locations h2 {
@@ -124,8 +125,10 @@ header nav a {
 }
 
 #locations-container {
-    display: flex ;
+    display: flex;
     justify-content: space-around;
+    background-color: rgba(240, 248, 255, 0);
+    margin-top: 15px;
     gap: 10px;
 }
 
@@ -134,6 +137,7 @@ header nav a {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    opacity: 1;
 
     height: 300px;
     width: 300px;
@@ -144,8 +148,13 @@ header nav a {
 footer {
     display: flex;
     flex-wrap: wrap;
+    margin-inline: auto;
 }
-
+#contact_info {
+    height: 200px;
+    justify-content: center;
+    align-items: center;    
+}
 footer copyright {
     justify-content: flex-end;
 }
