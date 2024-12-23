@@ -1,34 +1,41 @@
 
-
+/*general properties*/
 html {
     font-size: 1em;
-    background-color: #363030;
-    color: #CE2558;
+    background-color: #292538;
+    color: #FBFAFA;
 }
 
 h1 {
     font-size: 2.125rem;
-    font-family: "Roboto";
+    font-family: "Roboto";   
 }
 
+button {
+    padding: 3rem;
+    background-color: #F0803C;
+    color: #FBFAFA;
+    border-radius: 15px;
+}
+/*navegation*/
 nav {
     z-index: 10;
     border-radius:0 0 15px 15px;
     position: fixed;
     display: flex;
     justify-content: space-between;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
     align-items: center;
     background-color:#CE2558;
     box-shadow: rgba(56, 29, 42, 0.25);
     width: 100%;
-    height: 5rem;
+    height: 4.5rem;
 }
 
 nav h1 {
     background-color:#CE2558;
     color: #F0803C;
-    margin-left: 2rem;
+    margin-left: 4rem;
     text-shadow: 2px 2px 5px rgba(56, 29, 42, 0.75);
 }
 
@@ -48,19 +55,27 @@ nav a {
     text-decoration: none;
     background-color:#CE2558;
 }
-#main {
+
+/*body -> main*/
+main {
     position:relative;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: 25.5rem repeat(3,1fr);
     grid-template-columns: 1fr;
     display: grid;
     top:5rem;
 }
+section {
+    padding: 1rem;
+}
 
-#main-content {
+
+/*main content*/
+section#main-content {
     grid-row: 1/span 1;
     grid-column: 1 / span 1;
     display: flex;
     justify-content: space-around;
+    gap: 2rem;
 }
 
 
@@ -73,25 +88,39 @@ nav a {
 
 }
 
-div .container {
-    margin:1rem;
-    background-color: #381D2A ;
+
+/*main product*/
+section#main-product {
+    grid-row: 2/ span 1;
+    grid-column:1/ span 1;
+}
+
+
+/*container properties*/
+div.container {
+    background-color: #FBFAFA ;
     border-radius: 15px;
-    box-shadow: 10px 5px #F0803C;
+    box-shadow: 10px 10px #F0803C;
 } 
  div.text.container {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     width: 40%;
-    height: 100%;
-    
-}
- div.container.img {
-    width:60%;
     height: 100%;
 }
 
-section {
-    /*border:solid 5px blue;*/
+div.text.container h1 {
+    width: 80%;
+    color:#CE2558;
+    text-shadow: 2px 2px 5px #292538;
+    font-size: 4rem;
+    text-align: center;
+}
+
+ div.container.img {
+    width:60%;
+    height: 100%;
+    box-shadow: none;
 }
