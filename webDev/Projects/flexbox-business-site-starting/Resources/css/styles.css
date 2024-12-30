@@ -13,10 +13,12 @@ h1 {
 }
 
 button {
+    width: 35%;
     background-color: #F0803C;
     font-weight: 700;
-    font-size:1.5rem;
-    padding: 2rem 3rem;
+    font-size:1 rem;
+    aspect-ratio: 2.3/ 1;
+    padding: 2.5% 5%;
     box-shadow: 4px 4px 0px #292538;
     color: #FBFAFA;
     border-radius: 15px;
@@ -136,9 +138,10 @@ section {
 
 /*main content*/
 section#main-content {
+    display: flex;
     grid-row: 1/span 1;
     grid-column: 1 / span 1;
-    
+
     justify-content: space-around;
     gap: 2rem;
 }
@@ -156,8 +159,17 @@ section#main-content {
 
 /*main product*/
 section#main-product {
+    display: grid;
+    gap: 1%;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 0;
+    overflow: scroll;
+    
+
     grid-row: 2/ span 1;
     grid-column:1/ span 1;
+    flex-wrap: wrap;
 }
 section#main-product {
     color: #CE2558;
@@ -165,23 +177,43 @@ section#main-product {
 
 section#main-product div.container {
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
-    width: 45%;
+    width: 90%;
     aspect-ratio: 1/ 1.15;
     background-color: #FBFAFA;
     border-radius: 15px;
     box-shadow: none;
 }
 
+section#main-product div.container.left {
+    justify-content: flex-start;
+    grid-row: 1/ span 3;
+    grid-column:1/ span 1;
+    
+}
+
+section#main-product div.container.right {
+    justify-content: flex-end;
+    grid-row: span 2 / -1;
+    grid-column:2/ span 1;
+    
+    aspect-ratio: 1/ 1.2;
+    margin-top: 15%;
+    margin-right: 0;
+    margin-left: 10%;
+}
+
 section#main-product div.text {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     padding-top: 5%;
     height: auto;
     flex: 1 1 100%;
     font-size: 90%;
     color: black;
     line-height: 1.5;
+    overflow: scroll;
 }
 
 section#main-product div.text p {
@@ -205,11 +237,28 @@ section#main-product div.container.img {
     flex: 0 0  107%;
     width: 75%;
     height: 45%;
+    box-shadow: none;
+    overflow: visible;
+}
+
+section#main-product div.container.img span.img-info {
+    display: none;
+}
+
+section#main-product div.container.img span.img-info:hover {
+    display:block;
+    }
+
+section#main-product div.container.left div.container.img {
     margin-left: 10%;
     margin-top: 5%;
     background-color: #F0803C;
-    box-shadow: none;
-    overflow: visible;
+}
+
+section#main-product div.container.right div.container.img {
+    margin-right: 10%;
+    margin-bottom: 5%;
+    background-color: #998FAF;
 }
 
 section#main-product div.container.img img {
@@ -217,12 +266,32 @@ section#main-product div.container.img img {
     height: 100%;
     mix-blend-mode: lighten;
 }
+
+section#main-product div.container.right div.container.img img{
+    mix-blend-mode:normal;
+}
+
 section#main-product div.container.img .background {
     width: 85%;
     height: 75%;
     background-color: #CE2558;
 }
 
-@media only screen {
+@media only screen and (min-width: 769px) {
+    html {
+        font-size: 1.1em;
+    }    
     
+    section#main-product div.container {
+        
+        aspect-ratio: 1/ 1;
+        
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 1.1em;
+    }   
 }
