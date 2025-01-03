@@ -59,7 +59,7 @@ div.container {
     border-radius: 15px;
     box-shadow: 10px 10px #F0803C;
 } 
- div.container.text {
+ div.container-text {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -68,7 +68,7 @@ div.container {
     height: 100%;
 }
 
-div.container.text h1 {
+div.container-text h1 {
     width: 80%;
     color:#CE2558;
     text-shadow: 0px 4px 4px #292538;
@@ -76,7 +76,7 @@ div.container.text h1 {
     font-weight: 500;
     text-align: center;
 }
-div.container.text h1 bold {
+div.container-text h1 bold {
     background-color:#CE2558;
     color: #FBFAFA;
     border-radius: 15px;
@@ -218,7 +218,7 @@ section#main-product div.container.right {
     margin-left: 10%;
 }
 
-section#main-product div.text {
+section#main-product div.container-text {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -232,16 +232,16 @@ section#main-product div.text {
     text-align: center;
 }
 
-section#main-product div.text p {
+section#main-product div.container-text p {
     padding: 10%;
 }
 
-section#main-product div.text h2 {
+section#main-product div.container-text h2 {
     font-size: 1.5em;
     color:#CE2558;
 }
 
-section#main-product div.text bold {
+section#main-product div.container-text bold {
     font-size: 1.5em;
     font-weight: 700;
 }
@@ -296,7 +296,8 @@ section#main-product div.container.img .background {
 }
 
 section#founders {
-
+background-color:#FBFAFA;
+opacity: 90%;
 }
 
 footer {
